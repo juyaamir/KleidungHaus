@@ -5,7 +5,7 @@ const Search = () => {
     <div className='rounded-full flex justify-center items-center bg-white
     focus:border-green-500'>
         <input type="search" 
-        className='grow rounded-full px-2 text-black focus:outline-none'
+        className='grow rounded-full px-4 text-black focus:outline-none'
         />
         <Link href='/search' className="">
             <IoSearch size='30px' className='text-black bg-white px-1 font-semibold hover:text-green-600' 
